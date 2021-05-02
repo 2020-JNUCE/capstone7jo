@@ -1,0 +1,19 @@
+{
+  "name": "Capstone_FRONT",
+  "version": "0.0.1",
+  "description": "Capstone 7jo front",
+  "main": "index.js",
+  "author": "7jo",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1"
+  },
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
