@@ -5,4 +5,11 @@ module.exports = function(app) {
       length: 5
     });
   });
+    app.get('/login',function(req,res){
+      res.render('login', {
+          title: "7jo",
+          
+      });
+   });
+  
 }
