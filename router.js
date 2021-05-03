@@ -11,5 +11,11 @@ module.exports = function(app) {
           
       });
    });
+   app.get('/parkRegister',function(req,res){
+    res.render('parkRegister', {
+        title: "7jo",
+        
+    });
+ });
   
 }
