@@ -24,4 +24,10 @@ module.exports = function(app) {
   });
 });
   
+app.get('/reservation',function(req,res){
+  res.render('reservation', {
+    title: "7jo"
+  });
+});
+  
 }
