@@ -23,5 +23,9 @@ module.exports = function(app) {
     title: "7jo"
   });
 });
-  
+app.get('/reservationConfirm',function(req,res){
+  res.render('reservationConfirm', {
+    title: "7jo"
+  });
+});
 }
